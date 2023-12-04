@@ -15,7 +15,7 @@ def sample(preds, temperature=1.0):
     return out
     #return np.argmax(probas)
 
-model = tf.keras.models.load_model('app/shakespeare.h5')
+model = tf.keras.models.load_model('shakespeare.h5')
 
 #print('corpus length:', len(text))
 
